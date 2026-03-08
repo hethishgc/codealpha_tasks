@@ -1,37 +1,49 @@
-# CodeAlpha Iris Flower Classification
+# CodeAlpha Task 1: Iris Flower Classification
 
-## Problem
-Build a machine learning model to classify Iris flowers into three species based on flower measurements.
+## Objective
+Build a machine learning model to classify iris flowers into three species:
+- Setosa
+- Versicolor
+- Virginica
 
 ## Dataset
-Iris Dataset (UCI Machine Learning Repository)
-
-Features:
+The Iris dataset contains measurements of iris flowers:
 - Sepal Length
 - Sepal Width
 - Petal Length
 - Petal Width
 
-Classes:
-- Setosa
-- Versicolor
-- Virginica
+Target variable:
+- Species of iris flower
+
+## Tasks Performed
+- Loaded and explored the Iris dataset
+- Performed data preprocessing
+- Trained a classification model using Scikit-learn
+- Evaluated model predictions
+- Built a simple Streamlit interface for predictions
+
+## Tools Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Streamlit
 
 ## Model
-Logistic Regression model was trained using Scikit-learn.
+A classification model was trained to predict iris species based on flower measurements.
 
-## Evaluation
-The dataset was split into training and testing sets.  
-Model performance was evaluated using **Accuracy Score** and **Confusion Matrix**.
+## How to Run
 
-## Technologies Used
-Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Streamlit
-
-## Run the Project
 Install dependencies:
 
 pip install -r requirements.txt
 
-Run the Streamlit app:
+Run the Streamlit application:
 
 streamlit run streamlit_UI.py
+
+## Outcome
+The trained model can classify iris flowers accurately based on their measurements, demonstrating a basic machine learning classification workflow.

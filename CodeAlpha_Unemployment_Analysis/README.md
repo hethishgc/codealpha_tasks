@@ -1,24 +1,46 @@
-# CodeAlpha Unemployment Analysis
+# CodeAlpha Task 2: Unemployment Analysis with Python
 
 ## Objective
-Analyze unemployment trends in India and study the impact of COVID-19.
+Analyze unemployment trends and investigate the impact of COVID-19 on unemployment rates.
+
+## Dataset
+The dataset contains unemployment statistics in India including:
+
+- Region
+- Date
+- Estimated Unemployment Rate (%)
+- Estimated Employed
+- Labour Participation Rate (%)
+- Area (Urban/Rural)
 
 ## Tasks Performed
 - Data cleaning and preprocessing
-- Exploratory data analysis
-- Regional unemployment comparison
+- Exploratory Data Analysis (EDA)
+- Visualization of unemployment trends over time
+- Region-wise unemployment comparison
 - COVID-19 impact analysis
-- Visualization using Python
+- Identification of patterns in unemployment rates
 
 ## Tools Used
-Python, Pandas, Matplotlib, Seaborn, Streamlit
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
 
-## Run the Dashboard
+## Key Insights
+- Unemployment rates increased significantly during the COVID-19 pandemic.
+- Some regions show consistently higher unemployment rates.
+- Labour participation rate shows correlation with unemployment levels.
 
-Install dependencies
+## How to Run
+
+Install dependencies:
 
 pip install -r requirements.txt
 
-Run Streamlit
+Run the notebook:
 
-streamlit run streamlit_app.py
+notebooks/unemployment_analysis.ipynb
+
+## Outcome
+This project demonstrates how data analysis and visualization can be used to understand economic trends and identify patterns in unemployment data.
